@@ -23,13 +23,20 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage{setspace}
-\usepackage[left=0.65in,top=0.6in,right=0.65in,bottom=0.6in]{geometry} % Document margins
+\usepackage[left=0.65in,top=0.7in,right=0.65in,bottom=0.65in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{ZIYI WU} % Your name
-\address{2\# Zijing Student Apartment \\ Tsinghua University \\ Beijing, 100084, P.R.China} % Your address
+\address{
+%2\# Zijing Student Apartment \\ 
+Tsinghua University \\ 
+Beijing, 100084, P.R.China
+} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{(+86) 18810237672 \\ \href{mailto:wuzy17@mails.tsinghua.edu.cn}{wuzy17@mails.tsinghua.edu.cn} \\ %\href{mailto:dazitu616@gmail.com}{dazitu616@gmail.com} \\
+\address{
+(+86) 18810237672 \\ 
+\href{mailto:wuzy17@mails.tsinghua.edu.cn}{wuzy17@mails.tsinghua.edu.cn} \\ 
+%\href{mailto:dazitu616@gmail.com}{dazitu616@gmail.com} \\ 
 \url{https://wuziyi616.github.io/}}
 %https://github.com/Wuziyi616} % Your phone number and email
 
@@ -41,9 +48,11 @@
 
 \begin{rSection}{Education}
 
-{\textbf{Tsinghua University}, Beijing, P.R.China} \hfill {\em Aug, 2017 -- Jul, 2021 (expected)}
+{\textbf{Tsinghua University}} \hfill {Beijing, P.R.China}
+
+\textbf{Bachelor} of Engineering in the Department of Automation \hfill {\em Aug, 2017 -- Jul, 2021 (expected)}
 \begin{itemize}
-    \item \textbf{Bachelor} of Engineering in the Department of Automation (expected)
+    %\item \textbf{Bachelor} of Engineering in the Department of Automation (expected)
     \item \textbf{GPA: 3.9/4.0, Ranking: 2$^{nd}$/173}
     %\item \textbf{Bachelor} of Management in the School of Economy and Management (expected, second degree)
     \item \textbf{Chairman} of Spark Program, Tsinghua University
@@ -79,7 +88,7 @@
 \begin{spacing}{1.05}
 \begin{itemize}
     \item \textbf{2020} \textbf{Xiaomi Scholarship} (Highest scholarship in Tsinghua sponsored by Xiaomi Corp., \textbf{0.1\%})
-    \item \textbf{2020, 2019} \textbf{Tsinghua Innovation Award of Science and Technology} (Awarded to undergraduate students with excellent research achievements, \textbf{0.2\%})
+    \item \textbf{2020, 2019} \textbf{Tsinghua Innovation Award of Science and Technology} (Awarded to undergraduate students with excellent research potentials, \textbf{0.2\%})
     \item \textbf{2019} \textbf{Fang Chongzhi Scholarship} (Highest honor in the Dept. of Automation, \textbf{0.1\%})
     \item \textbf{2019} \textbf{Tsinghua Spark Program Membership} (Top student program in academic research, \textbf{\textless~1\%})
     \item \textbf{2018} \textbf{National Scholarship} (Highest scholarship issued by the Chinese government, \textbf{\textless~0.1\%})
@@ -113,7 +122,8 @@
     %Deep Hashing, Binary Representation, Binary Neural Networks, 
     %Model Compression, 
     3D Vision, 
-    Point Cloud Analysis, 
+    Video Processing, 
+    %Point Cloud Analysis, 
     Efficient Inference, 
     Unsupervised Learning
     %Medical Image Processing
@@ -125,8 +135,8 @@
 
 \begin{rSection}{Research Experiences}
 
-{\textbf{Stanford University}, CA, U.S.} \hfill {\em May, 2020 -- present}\newline
-\emph{\href{https://geometry.stanford.edu/}{Geometric Computing Group}, Department of Computer Science}\newline
+{\textbf{Stanford University}, CA, U.S.}\newline
+\emph{\href{https://geometry.stanford.edu/}{Geometric Computing Group}, Department of Computer Science} \hfill {\em May, 2020 -- present}\newline
 Research Assistant, Advisors: Profs. \href{https://geometry.stanford.edu/member/guibas/index.html}{Leonidas Guibas}\newline
 \textbf{Project: IF-Defense: 3D Adversarial Point Cloud Defense via Implicit Function based Restoration}
 \begin{itemize}
@@ -135,8 +145,10 @@ Research Assistant, Advisors: Profs. \href{https://geometry.stanford.edu/member/
     \item Achieve state-of-the-art defense results against all the attacks on five typical point cloud networks\newline
 \end{itemize}
 
-{\textbf{Tsinghua University}, Beijing, China} \hfill {\em Apr, 2019 -- Apr, 2020}\newline
-\emph{\href{http://ivg.au.tsinghua.edu.cn/index.php}{Intelligent Vision Group}, Department of Automation}\newline
+\vspace{-0.12cm}
+
+{\textbf{Tsinghua University}, Beijing, China}\newline
+\emph{\href{http://ivg.au.tsinghua.edu.cn/index.php}{Intelligent Vision Group}, Department of Automation} \hfill {\em Apr, 2019 -- Apr, 2020}\newline
 Research Assistant, Advisors: Profs. \href{http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/}{Jiwen Lu} \& \href{https://www.tsinghua.edu.cn/publish/auen/1713/2011/20110506105532098625469/20110506105532098625469_.html}{Jie Zhou}\newline
 \textbf{Project: BiDet: An Efficient Binarized Object Detector}
 \begin{itemize}
@@ -144,6 +156,8 @@ Research Assistant, Advisors: Profs. \href{http://ivg.au.tsinghua.edu.cn/Jiwen_L
     \item Employ the Information Bottleneck (IB) principle for redundancy removal to fully utilize the capacity of BNNs and learn sparse object priors to eliminate the false positives in the prediction output
     \item Achieve state-of-the-art performance when combined with both one-stage and two-stage detectors while reducing the model size and inference time by more than $10\times$\newline
 \end{itemize}
+
+\vspace{-0.3cm}
 
 \textbf{Project: Learning Efficient Binarized Object Detectors with Information Compression}
 \begin{itemize}
@@ -180,8 +194,8 @@ Research Assistant, Advisors: Profs. \href{https://www.tsinghua.edu.cn/publish/a
 \begin{rSection}{Programming Skills}
 
 \begin{description}
-    \item[Proficient] \quad\quad\quad\quad\,\,\,\,\, Python, PyTorch, C\#, Markdown, \LaTeX, Git
-    \item[Familiar] \quad\quad\quad\quad\quad\quad Linux, C/C++, TensorFlow, Keras, MATLAB, etc.
+    \item[Proficient] \quad\,\,\,\,\, Python, PyTorch, C\#, Markdown, LaTeX, Git
+    \item[Familiar] \quad\quad\quad Linux, C/C++, TensorFlow, Keras, MATLAB, etc.
     \newline
     %\item[Basic Knowledge] \quad\, MATLAB, Java, JavaScript, HTML/CSS, etc\newline
 \end{description}
@@ -191,8 +205,8 @@ Research Assistant, Advisors: Profs. \href{https://www.tsinghua.edu.cn/publish/a
 \begin{rSection}{Language Skills}
 
 \begin{description}
-    \item[TOEFL iBT] \quad 109/120 \quad (Reading 30, Listening 26, Speaking 23, Writing 30)
-    \item[GRE] \quad\quad\quad\quad\,\,\, 333/340+4.5/6.0 \, (Verbal 163, Quantitative 170, Analytical Writing 4.5)
+    \item[TOEFL iBT] \quad 109/120 (Reading 30, Listening 26, Speaking 23, Writing 30)
+    \item[GRE] \quad\quad\quad\quad\,\,\, 333/340+4.5/6.0 (Verbal 163, Quantitative 170, Analytical Writing 4.5)
     %\newline
 \end{description}
 
